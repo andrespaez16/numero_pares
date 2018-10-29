@@ -1,0 +1,8 @@
+<h1>Hola</h1>
+<% (1..50).each do |item| %>
+    <%if item %2 == 0%>
+        <h2><%=item%> <%=@par%></h2>
+     <% else%>
+        <h2> <%=item%> <%=@impar%></h2>
+    <%end%>
+<% end %>
